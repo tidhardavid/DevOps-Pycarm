@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d2dc0b5-4233-456f-ab0a-5b3d1c62fbc3" name="Default Changelist" comment="" />
+    <list default="true" id="2d2dc0b5-4233-456f-ab0a-5b3d1c62fbc3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +16,7 @@
         <counts>
           <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.5" value="4" />
@@ -21,12 +24,12 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
+          <entry key="class" value="3" />
           <entry key="class2" value="4" />
           <entry key="png" value="1" />
           <entry key="py" value="57" />
@@ -38,23 +41,23 @@
         <counts>
           <entry key="Image" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="63" />
+          <entry key="Python" value="64" />
           <entry key="PythonStub" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="132" />
-          <entry key="class" value="330" />
+          <entry key="class" value="334" />
           <entry key="class2" value="287" />
           <entry key="py" value="14825" />
-          <entry key="txt" value="1" />
+          <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="15574" />
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="Python" value="15578" />
         </counts>
       </usages-collector>
     </session>
@@ -64,97 +67,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20181105/assignment5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-                <marker date="1541944039874" expanded="true" signature="1168:1173" ph="..." />
-                <marker date="1541944039874" expanded="true" signature="1891:1896" ph="..." />
-                <marker date="1541944039874" expanded="true" signature="2711:5218" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20181029/class.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20181112/jenkins6.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../BuyMeAutomation/main.py">
+        <entry file="file://$PROJECT_DIR$/20181119/class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="156" column="28" lean-forward="true" selection-start-line="156" selection-start-column="28" selection-end-line="156" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20181029/class2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20181105/class.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="13" column="71" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/firefox/options.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2074">
-              <caret line="128" column="20" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/chrome/options.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="42" selection-start-line="39" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="22" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/20181105/fb.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            <state>
+              <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -186,6 +103,9 @@
       <replace>rundriver</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -209,6 +129,7 @@
         <option value="$PROJECT_DIR$/20181105/assignment5.py" />
         <option value="$PROJECT_DIR$/20181029/class.py" />
         <option value="$PROJECT_DIR$/20181112/jenkins6.py" />
+        <option value="$PROJECT_DIR$/20181119/class" />
       </list>
     </option>
   </component>
@@ -217,6 +138,7 @@
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -235,6 +157,11 @@
               <item name="DevOps1" type="462c0819:PsiDirectoryNode" />
               <item name="20181112" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DevOps1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DevOps1" type="462c0819:PsiDirectoryNode" />
+              <item name="20181119" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -242,7 +169,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BuyMeAutomation" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
@@ -418,13 +345,22 @@
       <option name="presentableId" value="Default" />
       <updated>1539133077173</updated>
     </task>
+    <task id="LOCAL-00001" summary="added test to class.py">
+      <created>1542654227468</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542654227468</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5136876" visible="true" weight="0.07903056" />
-      <window_info id="Structure" order="1" sideWeight="0.4863124" side_tool="true" visible="true" weight="0.07903056" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5120773" visible="true" weight="0.07903056" />
+      <window_info id="Structure" order="1" sideWeight="0.4879227" side_tool="true" visible="true" weight="0.07903056" />
       <window_info id="Favorites" order="2" sideWeight="0.5026455" side_tool="true" weight="0.16069546" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49841937" weight="0.329718" />
@@ -446,6 +382,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added test to class.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="added test to class.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -715,10 +655,17 @@
     <entry file="file://$PROJECT_DIR$/../BuyMeAutomation/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="156" column="28" lean-forward="true" selection-start-line="156" selection-start-column="28" selection-end-line="156" selection-end-column="43" />
+          <caret line="156" column="28" selection-start-line="156" selection-start-column="28" selection-end-line="156" selection-end-column="43" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20181119/class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
