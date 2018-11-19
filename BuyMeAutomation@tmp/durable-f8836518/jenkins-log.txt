@@ -1,0 +1,17 @@
+
+C:\Users\Tidhar\PycharmProjects\BuyMeAutomation>python main.py 
+Buy Me Automation is running...
+Traceback (most recent call last):
+  File "main.py", line 176, in <module>
+    runAutomation()
+  File "main.py", line 31, in runAutomation
+    rundriver(link)
+  File "main.py", line 54, in rundriver
+    runBuisnessScreen(driver)
+  File "main.py", line 114, in runBuisnessScreen
+    index = random.randint(0, (len(buisnesses) - 1))
+  File "C:\Users\Tidhar\AppData\Local\Programs\Python\Python37-32\lib\random.py", line 222, in randint
+    return self.randrange(a, b+1)
+  File "C:\Users\Tidhar\AppData\Local\Programs\Python\Python37-32\lib\random.py", line 200, in randrange
+    raise ValueError("empty range for randrange() (%d,%d, %d)" % (istart, istop, width))
+ValueError: empty range for randrange() (0,0, 0)

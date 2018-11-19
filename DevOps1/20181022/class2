@@ -1,0 +1,22 @@
+# import datetime
+#
+# print(datetime.datetime.now())
+
+from datetime import datetime
+print(datetime.now())
+
+
+class Shark:
+    def __init__(self, age, name = None):
+        self.age = age
+        self.name = name
+        print(age)
+
+
+def main():
+    stevie = Shark(3)
+    print(stevie.name)
+
+
+if __name__ == '__main__':
+    main()

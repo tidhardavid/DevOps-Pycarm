@@ -1,0 +1,37 @@
+# for x in range(3,8,2):
+#     print(x)
+
+# a = 'kflsa'
+# for x in range(len(a)-1,-1, -1):
+#     print(a[x])
+
+# count = 0
+# while count < 5:
+#     print(count)
+#     count += 1
+
+# a = 'kflsa'
+# for x in range(len(a)-1,-1, -1):
+#     if a[x] == 'f':
+#         break
+#     print(a[x])
+
+# boo = 'kflsa'
+# for x in range(len(boo) - 1, -1, -1):
+#     if boo[x] == 'f':
+#         continue
+#     print(boo[x])
+
+# count = 0
+# while count < 5:
+#     print(count)
+#     count += 1
+# else:
+#     print(456)
+
+# for letter in 'Python':
+#     if letter == 'h':
+#         pass
+#         print('pass!!')
+#     print('current letter is:', letter)
+

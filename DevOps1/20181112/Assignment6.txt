@@ -1,0 +1,166 @@
+﻿1. 
+Started by user admin
+Building on master in workspace C:\Users\Tidhar\.jenkins\workspace\createTxtfile
+[createTxtfile] $ cmd /c call C:\Users\Tidhar\AppData\Local\Temp\jenkins3124556147582402952.bat
+
+C:\Users\Tidhar\.jenkins\workspace\createTxtfile>set txt=Tidhar Ben David  
+
+C:\Users\Tidhar\.jenkins\workspace\createTxtfile>echo Tidhar Ben David   1>"C:\Users\Tidhar\Desktop\MyName.txt" 
+
+C:\Users\Tidhar\.jenkins\workspace\createTxtfile>exit 0 
+Finished: SUCCESS
+
+2. 
+Started by user admin
+Building on master in workspace C:\Users\Tidhar\.jenkins\workspace\readTextFile
+[readTextFile] $ cmd /c call C:\Users\Tidhar\AppData\Local\Temp\jenkins7092129012457291967.bat
+
+C:\Users\Tidhar\.jenkins\workspace\readTextFile>type C:\Users\Tidhar\Desktop\MyName.txt 
+Tidhar Ben David  
+
+C:\Users\Tidhar\.jenkins\workspace\readTextFile>exit 0 
+Finished: SUCCESS
+
+
+3.
+Started by user admin
+Building on master in workspace C:\Users\Tidhar\.jenkins\workspace\freeDiscSpace
+[freeDiscSpace] $ cmd /c call C:\Users\Tidhar\AppData\Local\Temp\jenkins241767435317943365.bat
+
+C:\Users\Tidhar\.jenkins\workspace\freeDiscSpace>fsutil volume diskfree c: 
+Total # of free bytes        : 459338276864
+Total # of bytes             : 510748577792
+Total # of avail free bytes  : 459338276864
+
+C:\Users\Tidhar\.jenkins\workspace\freeDiscSpace>exit 0 
+Finished: SUCCESS
+
+4.
+Started by user admin
+Building on master in workspace C:\Users\Tidhar\.jenkins\workspace\moveFile
+[moveFile] $ cmd /c call C:\Users\Tidhar\AppData\Local\Temp\jenkins4867155250275719639.bat
+
+C:\Users\Tidhar\.jenkins\workspace\moveFile>move C:\Users\Tidhar\Desktop\MyName.txt C:\Users\Tidhar\ 
+        1 file(s) moved.
+
+C:\Users\Tidhar\.jenkins\workspace\moveFile>exit 0 
+Finished: SUCCESS
+
+5. used the CRON expression - 0 8 * * *
+
+Started by user admin
+Building on master in workspace C:\Users\Tidhar\.jenkins\workspace\onceADayAt8
+[onceADayAt8] $ cmd /c call C:\Users\Tidhar\AppData\Local\Temp\jenkins6917464975983665465.bat
+
+C:\Users\Tidhar\.jenkins\workspace\onceADayAt8>echo 'Once a day at 8:00' 
+'Once a day at 8:00'
+
+C:\Users\Tidhar\.jenkins\workspace\onceADayAt8>echo 13:47:42.67 
+13:47:42.67
+
+C:\Users\Tidhar\.jenkins\workspace\onceADayAt8>exit 0 
+Finished: SUCCESS
+
+6. added logs of the free disc space to compare the disc space before the we create the file, after we create and after we move the file:
+Started by user admin
+Running in Durability level: MAX_SURVIVABILITY
+[Pipeline] node
+Running on Jenkins in C:\Users\Tidhar\.jenkins\workspace\Declarative1-4
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (free space log before create)
+[Pipeline] build (Building freeDiscSpace)
+Scheduling project: freeDiscSpace
+Starting building: freeDiscSpace #29
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (create file)
+[Pipeline] build (Building createTxtfile)
+Scheduling project: createTxtfile
+Starting building: createTxtfile #11
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (read file)
+[Pipeline] build (Building readTextFile)
+Scheduling project: readTextFile
+Starting building: readTextFile #11
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage (hide)
+[Pipeline] { (free space log before move)
+[Pipeline] build (Building freeDiscSpace)
+Scheduling project: freeDiscSpace
+Starting building: freeDiscSpace #30
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (move file)
+[Pipeline] build (Building moveFile)
+Scheduling project: moveFile
+Starting building: moveFile #9
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (free space log final)
+[Pipeline] build (Building freeDiscSpace)
+Scheduling project: freeDiscSpace
+Starting building: freeDiscSpace #31
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS
+
+7.
+Started by user admin
+Running in Durability level: MAX_SURVIVABILITY
+[Pipeline] node
+Running on Jenkins in C:\Users\Tidhar\.jenkins\workspace\DeclarativeSelenium
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Build)
+[Pipeline] dir
+Running in C:\Users\Tidhar\PycharmProjects\BuyMeAutomation
+[Pipeline] {
+[Pipeline] bat
+
+C:\Users\Tidhar\PycharmProjects\BuyMeAutomation>python main.py 
+Buy Me Automation is running...
+
+Buy Me Automation is done successfully!!
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS
+
+8. challange - had to increase the number of executers from 2 to 3
+Started by user admin
+Running in Durability level: MAX_SURVIVABILITY
+[Pipeline] node
+Running on Jenkins in C:\Users\Tidhar\.jenkins\workspace\Declarative1-4Selenium
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (declarative 1-4)
+[Pipeline] build (Building Declarative1-4)
+Scheduling project: Declarative1-4
+Starting building: Declarative1-4 #19
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Selenium project)
+[Pipeline] build (Building DeclarativeSelenium)
+Scheduling project: DeclarativeSelenium
+Starting building: DeclarativeSelenium #10
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS
