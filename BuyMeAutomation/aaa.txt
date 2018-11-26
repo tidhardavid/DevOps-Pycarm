@@ -17,4 +17,4 @@ njknkjnk
 
 jenkins
 
-testy
+test jenkins pipeline
