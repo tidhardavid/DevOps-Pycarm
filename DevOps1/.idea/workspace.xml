@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d2dc0b5-4233-456f-ab0a-5b3d1c62fbc3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2d2dc0b5-4233-456f-ab0a-5b3d1c62fbc3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +12,7 @@
     <session id="-1230550553">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="2" />
@@ -48,7 +46,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="132" />
-          <entry key="class" value="334" />
+          <entry key="class" value="343" />
           <entry key="class2" value="287" />
           <entry key="py" value="14825" />
           <entry key="txt" value="23" />
@@ -57,7 +55,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="23" />
-          <entry key="Python" value="15578" />
+          <entry key="Python" value="15587" />
         </counts>
       </usages-collector>
     </session>
@@ -70,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/20181119/class">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+            <state relative-caret-position="17">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -664,8 +662,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/20181119/class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+        <state relative-caret-position="17">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
         </state>
       </provider>
     </entry>
