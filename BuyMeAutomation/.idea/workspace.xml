@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58cd68eb-b262-4046-87ad-2a7decf4e61d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/newfile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,36 +39,31 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="97" />
-          <entry key="py" value="3681" />
+          <entry key="py" value="3682" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3778" />
+          <entry key="Python" value="3779" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="806">
-              <caret line="178" column="22" selection-start-line="178" selection-start-column="22" selection-end-line="178" selection-end-column="22" />
+            <state relative-caret-position="772">
+              <caret line="175" column="19" selection-start-line="175" selection-start-column="19" selection-end-line="175" selection-end-column="19" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
-                <marker date="1543250350456" expanded="true" signature="140:413" ph="..." />
-                <marker date="1543250350456" expanded="true" signature="615:617" ph="..." />
-                <marker date="1543250350456" expanded="true" signature="1239:1240" ph="..." />
+                <marker date="1543251436322" expanded="true" signature="140:413" ph="..." />
+                <marker date="1543251436322" expanded="true" signature="615:617" ph="..." />
+                <marker date="1543251436322" expanded="true" signature="1239:1240" ph="..." />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/newfile.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -97,8 +91,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/BuyMeLink.txt" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/newfile.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -303,21 +297,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/newfile.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="178" column="22" selection-start-line="178" selection-start-column="22" selection-end-line="178" selection-end-column="22" />
+        <state relative-caret-position="772">
+          <caret line="175" column="19" selection-start-line="175" selection-start-column="19" selection-end-line="175" selection-end-column="19" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-            <marker date="1543250350456" expanded="true" signature="140:413" ph="..." />
-            <marker date="1543250350456" expanded="true" signature="615:617" ph="..." />
-            <marker date="1543250350456" expanded="true" signature="1239:1240" ph="..." />
+            <marker date="1543251436322" expanded="true" signature="140:413" ph="..." />
+            <marker date="1543251436322" expanded="true" signature="615:617" ph="..." />
+            <marker date="1543251436322" expanded="true" signature="1239:1240" ph="..." />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newfile.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
